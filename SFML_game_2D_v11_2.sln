@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML_game_2D_v11_2", "SFML_game_2D_v11_3\SFML_game_2D_v11_3.vcxproj", "{3D127693-4667-4FEA-AB25-42801DE6EBC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D127693-4667-4FEA-AB25-42801DE6EBC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D127693-4667-4FEA-AB25-42801DE6EBC9}.Debug|Win32.Build.0 = Debug|Win32
+		{3D127693-4667-4FEA-AB25-42801DE6EBC9}.Release|Win32.ActiveCfg = Release|Win32
+		{3D127693-4667-4FEA-AB25-42801DE6EBC9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

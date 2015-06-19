@@ -1,0 +1,71 @@
+﻿Сборка начата 19.06.2015 13:22:14.
+     1>Проект "C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\SFML_game_2D_v11_3\SFML_game_2D_v11_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML_game_2D_v11_1.vcxproj, SFML_game_2D_v11_2.vcxproj, SFML_game_2D_v7_1.vcxproj, SFML_game_2D_v10.vcxproj, SFML_game_2D_v11.vcxproj, SFML_game_2D_v2.vcxproj, SFML_game_2D_v3.vcxproj, SFML_game_2D_v5.vcxproj, SFML_game_2D_v8.vcxproj, SFML_game_2D_v9.vcxproj, SFML_TRY_3_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\PROG\SFML-2.3\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BulletClass.cpp CreatureClass.cpp EnemyClass.cpp EntityClass.cpp main.cpp MapLoaderClass.cpp PlayerClass.cpp
+         PlayerClass.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\playerclass.cpp(29): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\playerclass.cpp(67): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\playerclass.cpp(68): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\playerclass.cpp(70): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\playerclass.cpp(116): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\playerclass.cpp(117): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+         MapLoaderClass.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\maploaderclass.cpp(195): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\maploaderclass.cpp(206): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         main.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\view.h(15): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\main.cpp(44): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\main.cpp(220): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\main.cpp(155): warning C4101: yEnPlace: неиспользованная локальная переменная
+         EntityClass.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\entityclass.cpp(16): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\entityclass.cpp(17): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\entityclass.cpp(36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\entityclass.cpp(71): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\entityclass.cpp(72): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+         EnemyClass.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(26): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(66): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(67): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(69): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(120): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(208): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\enemyclass.cpp(209): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+         CreatureClass.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\creatureclass.cpp(13): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\creatureclass.cpp(14): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\creatureclass.cpp(33): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\creatureclass.cpp(65): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\creatureclass.cpp(66): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+         BulletClass.cpp
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\sets_n_structs.h(38): warning C4305: инициализация: усечение из "double" к "const float"
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(17): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(18): warning C4244: =: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(135): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\move\desktop\j_18\sfml_game_2d_v11_3\sfml_game_2d_v11_3\bulletclass.cpp(136): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\Debug\SFML_game_2D_v11_2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\PROG\SFML-2.3\lib" "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" "sfml-main-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\Debug\SFML_game_2D_v11_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\Debug\SFML_game_2D_v11_2.lib" /MACHINE:X86 Debug\BulletClass.obj
+         Debug\CreatureClass.obj
+         Debug\EnemyClass.obj
+         Debug\EntityClass.obj
+         Debug\main.obj
+         Debug\MapLoaderClass.obj
+         Debug\PlayerClass.obj
+     1>sfml-main-d.lib(MainWin32.cpp.obj) : warning LNK4099: "vc120.pdb" PDB не найден с "sfml-main-d.lib(MainWin32.cpp.obj)" или на "C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\Debug\vc120.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         SFML_game_2D_v11_3.vcxproj -> C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\Debug\SFML_game_2D_v11_2.exe
+     1>Сборка проекта "C:\Users\Move\Desktop\J_18\SFML_game_2D_v11_3\SFML_game_2D_v11_3\SFML_game_2D_v11_3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.55
